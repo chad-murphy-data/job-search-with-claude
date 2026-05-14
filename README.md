@@ -2,9 +2,7 @@
 
 Twice a week, this thing wakes up, searches for jobs that match a profile you wrote, has Claude score each one against your own rubric, and emails you a short tiered list. Then it learns from your apply / pass decisions and gets sharper over time.
 
-> **Heads up:** Setting this up takes ~45 minutes and requires accounts at SerpAPI, Anthropic, Google, and GitHub. Other than Anthropic, these are all free. Once it's running, it costs roughly $0–$5/month (Anthropic API usage; SerpAPI has a free tier that fits this workload).
->
-> **My best advice:** Use Claude to set this up with you. Even if you're technical and all this seems easy, it will help you write the docs and catch anything I might have missed in the instructions.
+> **Heads up:** Setting this up takes ~45 minutes and requires accounts at SerpAPI, Anthropic, Google, and GitHub. Once it's running, it costs roughly $0–$5/month (Anthropic API usage; SerpAPI has a free tier that fits this workload).
 
 ## Why use this instead of scrolling LinkedIn
 
@@ -21,7 +19,7 @@ This pipeline does the filtering before the email lands:
 
 ## How it works (plain version)
 
-Every Tuesday and Friday morning, a small program runs on GitHub's servers. It searches Google Jobs for the titles you care about in your area (and remote), throws out anything that fails your hard rules, hands the survivors to Claude with your rubric attached, and Claude returns a ranked list with reasons. The program turns that list into an email with **Apply** and **Pass** buttons next to each job. Your clicks save to a Google Sheet, which the next run reads to learn what you actually want.
+Every Tuesday and Friday morning (you can change which days and times — see Tuning), a small program runs on GitHub's servers. It searches Google Jobs for the titles you care about in your area (and remote), throws out anything that fails your hard rules, hands the survivors to Claude with your rubric attached, and Claude returns a ranked list with reasons. The program turns that list into an email with **Apply** and **Pass** buttons next to each job. Your clicks save to a Google Sheet, which the next run reads to learn what you actually want.
 
 You set this up once. After that, the only thing you ever touch is your rubric — and only when you want to.
 
