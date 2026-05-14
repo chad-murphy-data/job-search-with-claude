@@ -1,0 +1,19 @@
+# Secrets
+.env
+*.env
+service-account*.json
+google-credentials*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
