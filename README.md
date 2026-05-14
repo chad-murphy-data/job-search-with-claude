@@ -6,6 +6,8 @@ Twice a week, this thing wakes up, searches for jobs that match a profile you wr
 
 > **⚠️ Make your copy private.** Your `RUBRIC.md` and `config.py` will contain personal information — salary floor, current role, current employer, career history. GitHub defaults new repos to **Public**; set it to **Private** on the "Use this template" page *before* clicking Create. (API keys live in GitHub Secrets and never end up in the repo — but your profile *will*.)
 
+> **One thing to know.** Each run sends your rubric and the job listings to Anthropic so Claude can score them — that's just how it works. Your salary and career history go through their servers. Anthropic says they don't train on API data, and I have no reason to doubt them, but I figured it was worth being upfront. Same caveat applies to whatever AI you use for resumes, cover letters, or anything else job-search related.
+
 **My best advice:** Don't set this up alone. Open the repo in [Claude](https://claude.ai) or [Claude Code](https://claude.com/claude-code) and ask it to walk you through setup. The hardest part of this whole thing is writing a sharp rubric for *yourself* — a 20-minute conversation with an AI that can read the template and edit your files beats a solo afternoon. Claude handles the editing; you make the decisions.
 
 (Don't prefer Claude? You should. But any modern code-capable AI — ChatGPT, Gemini, Cursor — works fine for this too.)
