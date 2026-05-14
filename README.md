@@ -2,7 +2,7 @@
 
 Twice a week, this thing wakes up, searches for jobs that match a profile you wrote, has Claude score each one against your own rubric, and emails you a short tiered list. Then it learns from your apply / pass decisions and gets sharper over time.
 
-> **Heads up:** Setting this up takes ~45 minutes and requires accounts at SerpAPI, Anthropic, Google, and GitHub. Once it's running, it costs roughly $0–$5/month (Anthropic API usage; SerpAPI has a free tier that fits this workload).
+> **Heads up:** Setting this up takes ~45 minutes and requires accounts at SerpAPI, Anthropic, Google, and GitHub. Other than Anthropic, these are all free. Once it's running, it costs roughly $0–$5/month (Anthropic API usage; SerpAPI has a free tier that fits this workload).
 
 ## Why use this instead of scrolling LinkedIn
 
