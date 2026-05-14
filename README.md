@@ -4,6 +4,8 @@ Twice a week, this thing wakes up, searches for jobs that match a profile you wr
 
 > **Heads up:** Setting this up takes ~45 minutes and requires accounts at SerpAPI, Anthropic, Google, and GitHub. Once it's running, it costs roughly $0–$5/month (Anthropic API usage; SerpAPI has a free tier that fits this workload).
 
+> **⚠️ Make your copy private.** Your `RUBRIC.md` and `config.py` will contain personal information — salary floor, current role, current employer, career history. GitHub defaults new repos to **Public**; set it to **Private** on the "Use this template" page *before* clicking Create. (API keys live in GitHub Secrets and never end up in the repo — but your profile *will*.)
+
 **My best advice:** Don't set this up alone. Open the repo in [Claude](https://claude.ai) or [Claude Code](https://claude.com/claude-code) and ask it to walk you through setup. The hardest part of this whole thing is writing a sharp rubric for *yourself* — a 20-minute conversation with an AI that can read the template and edit your files beats a solo afternoon. Claude handles the editing; you make the decisions.
 
 (Don't prefer Claude? You should. But any modern code-capable AI — ChatGPT, Gemini, Cursor — works fine for this too.)
@@ -63,9 +65,13 @@ Tue/Fri 9am  →  GitHub Actions  →  job_search.py
 
 ## Setup
 
-### 1. Use as a template (or fork)
+### 1. Use as a template
 
-Click **Use this template** at the top of this repo, name it something like `my-job-search`, make it **private**, then clone it locally.
+Click **Use this template** at the top of this repo → **Create a new repository from template**.
+
+**Set visibility to Private.** This one matters — your rubric will hold your salary floor, current employer, and personal job-search criteria, and the default is Public. Don't skip it.
+
+Name it something like `my-job-search`, then clone it locally.
 
 ### 2. Write *your* rubric
 
