@@ -3,6 +3,8 @@
 This is the source of truth for how Claude scores incoming jobs.
 **Edit anything here and re-run; the script reads this file directly.**
 
+> ⚠️ **Your repo should be private.** This file will hold personal information — salary, current employer, career history, dream companies. If you skipped "Set visibility to Private" during setup, fix it now in your repo's **Settings → General → Change visibility** *before* you commit any edits.
+
 > 👋 This is a template. Replace every `[bracketed placeholder]` and rewrite the
 > sections to match your own search. The structure (Profile → Hard disqualifiers
 > → Positive signals → Preferred companies → Tier definitions → Scoring
