@@ -4,6 +4,10 @@ Twice a week, this thing wakes up, searches for jobs that match a profile you wr
 
 > **Heads up:** Setting this up takes ~45 minutes and requires accounts at SerpAPI, Anthropic, Google, and GitHub. Once it's running, it costs roughly $0–$5/month (Anthropic API usage; SerpAPI has a free tier that fits this workload).
 
+**My best advice:** Don't set this up alone. Open the repo in [Claude](https://claude.ai) or [Claude Code](https://claude.com/claude-code) and ask it to walk you through setup. The hardest part of this whole thing is writing a sharp rubric for *yourself* — a 20-minute conversation with an AI that can read the template and edit your files beats a solo afternoon. Claude handles the editing; you make the decisions.
+
+(Don't prefer Claude? You should. But any modern code-capable AI — ChatGPT, Gemini, Cursor — works fine for this too.)
+
 ## Why use this instead of scrolling LinkedIn
 
 LinkedIn's job feed is optimized for engagement, not for you. You wade through expired postings, roles three levels below where you are, "I'm humbled to announce" posts between every other card, and an algorithm that surfaces whatever it thinks will keep you scrolling. By the time you've filtered all that out in your head, you've burned 40 minutes and applied to nothing.
@@ -122,10 +126,6 @@ cp .env.example .env  # fill in
 set -a; source .env; set +a  # Windows: load env vars however you do
 python job_search.py
 ```
-
-## Not technical? Hand it to Claude.
-
-If steps 2–5 feel daunting, open the repo in [Claude Code](https://claude.com/claude-code) or a Claude.ai project and say *"walk me through setting this up — ask me questions and edit the files as needed."* It'll handle the editing; you handle the decisions.
 
 ## License
 
